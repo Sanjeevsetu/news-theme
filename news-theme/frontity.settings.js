@@ -1,57 +1,12 @@
-const settings = {
-  "name": "news-theme",
-  "state": {
-    "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
-    }
-  },
-  "packages": [
-    {
-      "name": "@frontity/mars-theme",
-      "state": {
-        "theme": {
-          "menu": [
-            [
-              "Home",
-              "/"
-            ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
-          ],
-          "featured": {
-            "showOnList": false,
-            "showOnPost": false
-          }
-        }
-      }
-    },
-    {
-      "name": "@frontity/wp-source",
-      "state": {
-        "source": {
-          "url": "https://test.frontity.org"
-        }
-      }
-    },
-    "@frontity/tiny-router",
-    "@frontity/html2react"
-  ]
-};
+const fs  = require('fs');
+const path = require('path');
 
-export default settings;
+let global_data = [];
+let filenames = fs.readdirSync('./register-users/');
+
+filenames.forEach(file => {
+    if(path.extname(file) == '.json'){
+        global_data.push(JSON.parse(fs.readFileSync('./register-users/' + file)));           
+    }    
+});
+export default global_data;

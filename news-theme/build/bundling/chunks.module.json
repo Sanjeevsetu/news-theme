@@ -2,17 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "829ab0705691e9d68c4a",
+  "hash": "79f4819fc042cfaceb8d",
   "publicPath": "/static/",
   "outputPath": "D:\\frontity practice\\news-theme\\news-theme\\build\\static",
   "assetsByChunkName": {
     "list": "list.module.js",
-    "news-theme": "news-theme.module.js"
+    "news-theme": "news-theme.module.js",
+    "news-theme-two": "news-theme-two.module.js"
   },
   "assets": [
     {
       "name": "list.module.js",
-      "size": 47181,
+      "size": 49231,
       "chunks": [
         "list"
       ],
@@ -23,8 +24,20 @@
       "emitted": false
     },
     {
+      "name": "news-theme-two.module.js",
+      "size": 6497985,
+      "chunks": [
+        "news-theme-two"
+      ],
+      "chunkNames": [
+        "news-theme-two"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "news-theme.module.js",
-      "size": 6488773,
+      "size": 6497929,
       "chunks": [
         "news-theme"
       ],
@@ -46,6 +59,16 @@
       ],
       "children": {},
       "childAssets": {}
+    },
+    "news-theme-two": {
+      "chunks": [
+        "news-theme-two"
+      ],
+      "assets": [
+        "news-theme-two.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
     }
   },
   "namedChunkGroups": {
@@ -55,6 +78,16 @@
       ],
       "assets": [
         "news-theme.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "news-theme-two": {
+      "chunks": [
+        "news-theme-two"
+      ],
+      "assets": [
+        "news-theme-two.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -76,17 +109,18 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 30004,
+      "size": 31541,
       "names": [
         "list"
       ],
       "files": [
         "list.module.js"
       ],
-      "hash": "2c18ec860e68d9ffd124",
+      "hash": "b6fae26e870fdd62e743",
       "siblings": [],
       "parents": [
-        "news-theme"
+        "news-theme",
+        "news-theme-two"
       ],
       "children": [],
       "childrenByOrder": {},
@@ -99,14 +133,37 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1680966,
+      "size": 1687776,
       "names": [
         "news-theme"
       ],
       "files": [
         "news-theme.module.js"
       ],
-      "hash": "4397ccdc1c1fad9a334a",
+      "hash": "f2bb3c54e0b74f224d43",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "news-theme-two",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1687776,
+      "names": [
+        "news-theme-two"
+      ],
+      "files": [
+        "news-theme-two.module.js"
+      ],
+      "hash": "8e39a75f2b29b6491dd7",
       "siblings": [],
       "parents": [],
       "children": [
