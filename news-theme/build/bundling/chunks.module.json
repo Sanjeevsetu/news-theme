@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "829ab0705691e9d68c4a",
+  "publicPath": "/static/",
+  "outputPath": "D:\\frontity practice\\news-theme\\news-theme\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "news-theme": "news-theme.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 47181,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "news-theme.module.js",
+      "size": 6488773,
+      "chunks": [
+        "news-theme"
+      ],
+      "chunkNames": [
+        "news-theme"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "news-theme": {
+      "chunks": [
+        "news-theme"
+      ],
+      "assets": [
+        "news-theme.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "news-theme": {
+      "chunks": [
+        "news-theme"
+      ],
+      "assets": [
+        "news-theme.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 30004,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "2c18ec860e68d9ffd124",
+      "siblings": [],
+      "parents": [
+        "news-theme"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "news-theme",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1680966,
+      "names": [
+        "news-theme"
+      ],
+      "files": [
+        "news-theme.module.js"
+      ],
+      "hash": "4397ccdc1c1fad9a334a",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
